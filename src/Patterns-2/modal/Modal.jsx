@@ -28,7 +28,7 @@ export const Modal = ({ children }) => {
         </div>
         )
     }
-
+// fdsdf
   return (
     <>
         <button onClick={()=>setToggle(!toggle)}>{toggle ? 'Close' : 'Open'}</button>
@@ -37,6 +37,7 @@ export const Modal = ({ children }) => {
                 <ModalBody onClick={e=>e.stopPropagation()}>
                     <p style={{ cursor: 'pointer'}} onClick={()=>setToggle(false)}>X</p>
                     {children}
+                    
                 </ModalBody>
             </ModalBackground>
         ):null}
