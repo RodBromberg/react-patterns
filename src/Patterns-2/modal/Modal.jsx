@@ -29,6 +29,8 @@ export const Modal = ({ children }) => {
         )
     }
 // fdsdf
+// fdsdf
+// fdsf
   return (
     <>
         <button onClick={()=>setToggle(!toggle)}>{toggle ? 'Close' : 'Open'}</button>
